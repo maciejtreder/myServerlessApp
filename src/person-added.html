@@ -1,0 +1,12 @@
+added person: <%= (personName) ? personName : '' %> <br/>
+<a href="/">add another</a>
+<br/><br/>
+Updated list:
+
+<ul>
+    <% personList.forEach(function(personName){ %>
+    <li>
+        <%= (personName) ? personName : '' %>
+    </li>
+    <% }); %>
+</ul>
