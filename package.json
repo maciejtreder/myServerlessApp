@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon local.js",
+    "deploy": "serverless deploy"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/maciejtreder/myServerlessApp#readme",
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "serverless": "^1.16.1"
   },
   "dependencies": {
+    "aws-serverless-express": "^3.0.2",
     "body-parser": "^1.17.2",
     "ejs": "^2.5.6",
     "express": "^4.15.3"
