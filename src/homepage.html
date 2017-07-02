@@ -1,0 +1,13 @@
+<form action="submit" method="post">
+    My best friend is: <input type="text" name="friendName" />
+    <input type="submit" value="add" />
+</form>
+
+actual friend list:
+<ul>
+    <% personList.forEach(function(personName){ %>
+    <li>
+        <%= (personName) ? personName : '' %>
+    </li>
+    <% }); %>
+</ul>
