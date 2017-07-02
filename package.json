@@ -1,0 +1,26 @@
+{
+  "name": "my-serverless-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejtreder/myServerlessApp.git"
+  },
+  "author": "Maciej Treder <contact@maciejtreder.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maciejtreder/myServerlessApp/issues"
+  },
+  "homepage": "https://github.com/maciejtreder/myServerlessApp#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
