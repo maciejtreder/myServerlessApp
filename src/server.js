@@ -28,7 +28,7 @@ app.set('views', 'src');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.render('homepage', {personList: friendsList.getAll()});
+    res.render('index', {personList: friendsList.getAll()});
 });
 
 app.post('/submit', (req, res) => {
