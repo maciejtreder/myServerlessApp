@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon src/server.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maciejtreder/myServerlessApp.git"
